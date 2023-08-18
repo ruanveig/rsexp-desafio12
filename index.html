@@ -2,9 +2,92 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header>
+        <img
+          id="astronaut"
+          src="img/astronauta.png"
+          alt="astronauta no espaço"
+        />
+        <h1>Explore sem Limites</h1>
+        <h2>Porque o aprendizado é contínuo</h2>
+        <img id="arrow" src="img/Group 24.svg" alt="Seta para baixo" />
+      </header>
+      <nav id="content">
+        <div class="contentBox">
+          <img src="img/yellowMoon.png" alt="Yellow Moon" />
+          <h1>Não pare nunca</h1>
+          <div class="contentText">
+            <p>
+              Se você deseja ter sucesso nos<br />
+              estudos, é fundamental que você<br />
+              adote uma mentalidade de "não<br />
+              pare nunca". Estudar de forma<br />
+              consistente e contínua é a chave<br />
+              para o progresso e a conquista de<br />
+              seus objetivos.
+            </p>
+          </div>
+        </div>
+        <div class="contentBox">
+          <img src="img/blueMoon.png" alt="Yellow Moon" />
+          <h1>Só volta</h1>
+          <div class="contentText">
+            <p>
+              Se você parou ou perdeu o ritmo<br />
+              em alguma atividade ou projeto,<br />
+              saiba que nunca é tarde para<br />
+              recomeçar. Às vezes, as<br />
+              circunstâncias podem mudar, ou<br />
+              podemos nos sentir desmotivados<br />
+              ou sobrecarregados.
+            </p>
+          </div>
+        </div>
+        <div class="contentBox">
+          <img src="img/pinkMoon.png" alt="Yellow Moon" />
+          <h1>Siga seu ritmo</h1>
+          <div class="contentText">
+            <p>
+              Avançar pouco a pouco mantém<br />
+              progresso constante em objetivos,<br />
+              evitando parar ou desistir. Mesmo<br />
+              pequenos passos nos aproximam<br />
+              do destino e motivam a<br />
+              continuidade. Não subestime o<br />
+              poder de cada ação rumo ao<br />
+              objetivo final.
+            </p>
+          </div>
+        </div>
+      </nav>
+      <nav id="forms">
+        <h1>Entre em contato</h1>
+        <form action="/" method="post">
+          <fieldset>
+            <input type="text" name="name" id="name" placeholder="Seu nome" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Digite sua mensagem aqui..."
+            />
+            <button type="submit">Enviar mensagem</button>
+          </fieldset>
+        </form>
+      </nav>
+    </main>
+  </body>
 </html>
